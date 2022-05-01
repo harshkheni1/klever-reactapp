@@ -1,0 +1,139 @@
+.bgImage{
+    background-image: url('../assets/images/backgroundimage.png');
+    width: auto;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 8%;
+}
+.bgimageMobile{
+    background-image: url('../assets/images/bgimagemobile.png');
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.searchContainer{
+    position:absolute;
+    top: 92%;
+    left: 10%;
+    width: 80%;
+}
+.textAlignment{
+    position: relative;
+    top: 80%;
+    left: 0%;
+}
+.bgImageTrendingCourses{
+    background-image:url('../assets//images/trendingcourses.png'), url('../assets/images/containerbackground.png');
+    height: 631px;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+/* .videoImage{
+    background-image: url('../assets/images/videoimage.png');
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+.playButton{
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.arrowBackButton{
+    position: absolute;
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    top: 10%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+.bgDecoration{
+    background-image: url('../assets/images/cardDecorationImage2.png');
+    width: auto;
+    background-position: end;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.modalAlignment{
+    position: absolute;
+    width: 80%!important;
+    height: auto;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white!important;
+}
+
+.bgImagePaidCourses{
+    background-image:url('../assets//images/paidcourses.png'), url('../assets/images/overlay.png');
+    height: 631px;
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+.textAlignmentPaidCourses{
+    position: relative;
+    top: 150%!important;
+    left: 0%;
+}
+
+@media only screen and (max-width: 768px) and (min-width: 400px) {
+    .textAlignmentPaidCourses{
+        position: relative;
+        top: 120%!important;
+        left: 0%;
+    }
+  }
+
+.bgWebinar{
+    background-image:url('../assets//images/webinarimage.png'), url('../assets/images/Overlay2.png');
+    /* height: 631px!important; */
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+
+}
+.bgWebinar2{
+    background-image:url('../assets//images/Overlay3.png');
+    /* height: 631px!important; */
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+
+}
+.textAllignmentWebinar{
+    position: relative;
+    top: 0%!important;
+    left: 20%;
+}
+.bgThumbnail{
+    background-image:url('../assets//images/Placeholder\ 1.png'), url('../assets/images/Rectangle\ 5460.png');
+    /* height: 631px!important; */
+    background-repeat: no-repeat, no-repeat;
+    background-blend-mode: multiply;
+    background-position: center;
+    height: 631px;
+    margin-top: -10%!important;
+}
+.textAlignmentThumbnail{
+    position: relative;
+    top: 30%!important;
+    left: 0%;
+}

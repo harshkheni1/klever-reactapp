@@ -1,0 +1,172 @@
+.modalAlignment{
+    position: fixed;
+    width: auto!important;
+    height: auto;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white!important;
+}
+.modalAlignmentCategories{
+    position: fixed;
+    width: 80%!important;
+    height: auto;
+    max-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white!important;
+}
+
+.login-input .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: transparent!important;
+}
+.login-input .PrivateNotchedOutline-root-1 {
+    border: none!important;
+}
+
+.DropdownOutline button:focus {
+    outline: none!important;
+}
+.browse {
+    position: absolute;
+    top: 44px;
+    right: -50px;
+    z-index: 1000;
+    flex-direction: column;
+    min-width: 180px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: none;
+    color: black;
+}
+.browse .Dropdown_menu__1RXMV {
+    position: absolute;
+    top: 44px;
+    right: -130px;
+    z-index: 1000;
+    flex-direction: column;
+    min-width: 180px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: none;
+    color: black;
+}
+
+.browse .Item_item__3R8zS:hover {
+    background-color: white;
+    color: black;
+}
+
+.browse .Submenu_submenu__coavk {
+    background-color: white;
+    color: black;
+    min-width: 180px;
+    border-radius: 4px;
+    box-shadow: none;
+    z-index: 1100;
+    position: absolute;
+    display: none;
+    top: -5px;
+    right: -101%;
+}
+.browse .Submenu_submenu__r1rAe {
+    background-color: #fff;
+    min-width: 180px;
+    border-radius: 4px;
+    box-shadow: 0px 12px 32px rgb(26 26 26 / 20%);
+    z-index: 1100;
+    position: absolute;
+    display: none;
+    top: -5px;
+    right: -100%;
+}
+.browse button:focus {
+    outline: none!important;
+}
+
+.userDropdown .Dropdown_menu__1RXMV {
+    position: absolute;
+    top: 44px;
+    right: 10px!important;
+    z-index: 1000;
+    flex-direction: column;
+    min-width: 180px;
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: none;
+    color: black;
+}
+
+.userDropdown .Item_item__3R8zS:hover {
+    background-color: white;
+    color: black;
+}
+
+.userDropdown .Submenu_submenu__coavk {
+    background-color: white;
+    color: black;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: none;
+    z-index: 1100;
+    position: absolute;
+    display: none;
+    top: 0px;
+    right: 101%;
+}
+
+.userDropdown button:focus {
+    outline: none!important;
+}
+
+.kep-login-facebook {
+    font-family: SF Pro Text;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    font-weight: 500!important;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px!important;
+    text-decoration: none;
+    text-transform: none!important;
+    background-color: #4c69ba;
+    border: none!important;
+    outline: none!important;
+    padding: calc(0vw + 0px) calc(0vw + 0px)!important;
+}
+
+.google {
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: center!important;
+    width: 100%;
+    height: 30px;
+    outline: none!important;
+    font-weight: 500!important;
+    align-items: center;
+    color: black!important;
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px!important;
+    padding: 0px;
+    border-radius: 2px;
+    border: none!important;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Roboto, sans-serif;
+}
+
+.progressBar .MuiLinearProgress-barColorPrimary {
+    background-color: red!important;
+}
+.settingAlligment{
+    position: absolute;
+    top: 5%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    background-color: #DADADA;
+    border-radius: 50%;
+}
